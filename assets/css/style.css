@@ -1,0 +1,44 @@
+body {
+    background-image: url("../images/stardust.png");
+    color: white;
+}
+
+p {
+	font-size: 18px;
+	font-family: 'Lekton', sans-serif;
+	padding: 20px;
+	text-align: center;
+}
+
+.header {
+	text-align: center;
+	font-size: 96px;
+	padding: 30px;
+	font-family: 'Bungee', cursive;
+	}
+
+.songtitle {
+	text-align: center;
+	font-size: 24px;
+
+}
+
+.content {
+	height: 100%;
+	overflow: auto;
+	/*border: 1px solid blue;*/
+}
+
+.imagecolumn {
+	height: 100%;
+	text-align: center;
+	/*border: 1px solid green;*/
+}
+.space-image {
+	width: 100%;
+}
+
+.guesscolumn {
+	text-align: center;
+	/*border: 1px solid green;*/
+}
