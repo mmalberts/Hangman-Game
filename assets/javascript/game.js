@@ -9,6 +9,8 @@ var isLetter = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M",
 
 var wins = 0;
 
+
+
 function hangmanGame() {
 
 	//define maximum of random whole number generator
@@ -61,7 +63,7 @@ function hangmanGame() {
 		document.getElementById("selected-word").innerHTML = blankArray.join("");
 
 		//printing random word to check that the correct number of blank spaces are included
-		console.log(randomWord);
+		// console.log(randomWord);
 
 	}
 
@@ -143,9 +145,12 @@ document.onkeyup = function(event) {
 	whenKeyPressed();
 }
 
+//end hangmanGame function
 }
 
 document.addEventListener("DOMContentLoaded", function(event) {
-	hangmanGame();
+	document.onkeyup = function (event) {
+		hangmanGame();
+	}
 });
 
